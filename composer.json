@@ -1,0 +1,84 @@
+{
+  "repositories": [
+    {
+      "type": "path",
+      "url": "packages/*",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "type": "composer",
+      "url": "https://composer.typo3.org/"
+    }
+  ],
+  "name": "typo3/cms-base-distribution",
+  "description": "TYPO3 CMS Base Distribution",
+  "license": "GPL-2.0-or-later",
+  "config": {
+    "platform": {
+      "php": "7.4.28"
+    },
+    "sort-packages": true,
+    "allow-plugins": {
+      "typo3/cms-composer-installers": true,
+      "typo3/class-alias-loader": true
+    }
+  },
+  "require": {
+    "helhum/typo3-console": "^6.0.0",
+    "typo3/cms-about": "^10.4",
+    "typo3/cms-backend": "^10.4",
+    "typo3/cms-belog": "^10.4",
+    "typo3/cms-beuser": "^10.4",
+    "typo3/cms-core": "^10.4",
+    "typo3/cms-dashboard": "^10.4",
+    "typo3/cms-extbase": "^10.4",
+    "typo3/cms-extensionmanager": "^10.4",
+    "typo3/cms-felogin": "^10.4",
+    "typo3/cms-filelist": "^10.4",
+    "typo3/cms-fluid": "^10.4",
+    "typo3/cms-fluid-styled-content": "^10.4",
+    "typo3/cms-form": "^10.4",
+    "typo3/cms-frontend": "^10.4",
+    "typo3/cms-impexp": "^10.4",
+    "typo3/cms-info": "^10.4",
+    "typo3/cms-install": "^10.4",
+    "typo3/cms-recordlist": "^10.4",
+    "typo3/cms-rte-ckeditor": "^10.4",
+    "typo3/cms-seo": "^10.4",
+    "typo3/cms-setup": "^10.4",
+    "typo3/cms-sys-note": "^10.4",
+    "typo3/cms-t3editor": "^10.4",
+    "typo3/cms-tstemplate": "^10.4",
+    "typo3/cms-viewpage": "^10.4",
+    "fluidtypo3/vhs": "^6.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "jigal/t3adminer": "^9.4",
+    "phpmd/phpmd": "^2.9",
+    "friendsofphp/php-cs-fixer": "^2.15",
+    "friendsoftypo3/extension-builder": "^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RK\\Extcore\\": "public/typo3conf/ext/extcore/Classes/",
+      "RK\\Extfeuser\\": "public/typo3conf/ext/extfeuser/Classes"
+    }
+  },
+  "scripts": {
+    "typo3-cms-scripts": [
+      "typo3cms install:fixfolderstructure",
+      "typo3cms install:generatepackagestates"
+    ],
+    "post-autoload-dump": [
+      "@typo3-cms-scripts"
+    ]
+  },
+  "extra": {
+    "setup": {
+      "web-dir": "public"
+    }
+  }
+}
