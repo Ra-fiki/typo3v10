@@ -4,6 +4,6 @@ nbproject
 var/*
 !var/labels
 vendor
-public/*
+#public/*
 
 !public/.htaccess
