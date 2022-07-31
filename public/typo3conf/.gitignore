@@ -1,7 +1,7 @@
 /drushrc.php
 ext/*
-#
-#!ext/myext/*
-#!ext/extfeuser/*
-#!ext/extcore/*
+
+!ext/myext/*
+!ext/extfeuser/*
+!ext/extcore/*
 
