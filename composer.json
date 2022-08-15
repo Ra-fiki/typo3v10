@@ -53,7 +53,10 @@
     "typo3/cms-tstemplate": "^10.4",
     "typo3/cms-viewpage": "^10.4",
     "fluidtypo3/vhs": "^6.0",
-    "ext-json": "*"
+    "ext-json": "*",
+
+    "rk/extcore": "*@dev",
+    "rk/myext": "*@dev"
   },
   "require-dev": {
     "jigal/t3adminer": "^9.4",
@@ -63,8 +66,7 @@
   },
   "autoload": {
     "psr-4": {
-      "RK\\Extcore\\": "public/typo3conf/ext/extcore/Classes/",
-      "RK\\Extfeuser\\": "public/typo3conf/ext/extfeuser/Classes"
+      "RK\\Extcore\\": "public/typo3conf/ext/extcore/Classes/"
     }
   },
   "scripts": {

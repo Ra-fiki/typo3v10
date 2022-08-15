@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="EXT:myext/Resources/Private/Language/locallang" product-name="myext">
+        <header />
+        <body>
+            <trans-unit id="tmpname" resname="tmpname">
+                <target>tymczasowa nazwa</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

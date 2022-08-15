@@ -1,0 +1,4 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:extcore/Configuration/TypoScript/MainDomain/Setup/init.ts">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:extcore/Configuration/TypoScript/Adong/Setup/init.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:extcore/Configuration/TypoScript/Cookbook/Setup/init.ts">

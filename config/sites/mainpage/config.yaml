@@ -1,0 +1,32 @@
+base: 'https://typo3v10git.ddev.site/mainpage'
+languages:
+  -
+    title: English
+    enabled: true
+    languageId: 0
+    base: /en/
+    typo3Language: default
+    locale: en_US.UTF-8
+    iso-639-1: en
+    navigationTitle: English
+    hreflang: en-us
+    direction: ltr
+    flag: us
+    websiteTitle: ''
+  -
+    title: pl
+    enabled: true
+    base: /pl/
+    typo3Language: pl
+    locale: pl_PL.UTF-8
+    iso-639-1: pl
+    websiteTitle: ''
+    navigationTitle: Polski
+    hreflang: pl-PL
+    direction: ltr
+    fallbackType: strict
+    fallbacks: '0'
+    flag: pl
+    languageId: 1
+rootPageId: 1
+websiteTitle: ''

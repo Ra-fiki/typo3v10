@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="EXT:myext/Resources/Private/Language/locallang_db" product-name="myext">
+        <header />
+        <body>
+            <trans-unit id="tx_myext.plugin.archives.label" resname="tx_myext.plugin.archives.label">
+                <source>Archives</source>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>
